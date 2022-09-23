@@ -31,7 +31,10 @@
     'sequence': 10,
     'summary': 'PLM Engineering addition extending Purchase to attach pdf documents to "send a mail" feature.',
     'images': [],
-    'depends': ['purchase'],
+    'depends': [
+        'purchase',
+        'pdm'
+    ],
     'description': """
     """,
     'data': [
